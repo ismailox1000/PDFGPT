@@ -1,6 +1,6 @@
-pip install streamlit
-pip install PyPDF2
-pip install langchain
-pip install faiss-cpu
-pip install streamlit-chat
-pip install openai
+streamlit
+PyPDF2
+langchain
+faiss-cpu
+streamlit-chat
+openai
