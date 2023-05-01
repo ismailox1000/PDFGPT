@@ -13,7 +13,7 @@ from utils import get_initial_message, update_chat
 # Define Streamlit app
 def main():
     st.set_page_config(page_title="PDF QA Chatbot", page_icon="🤖")
-    st.title("PDF Question-Answering Chatbot 🤖 ")
+    st.title("PDF Q & A Chatbot 🤖 ")
     st.markdown("<br>", unsafe_allow_html=True)
     
 
