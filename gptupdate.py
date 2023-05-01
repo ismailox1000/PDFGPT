@@ -13,7 +13,7 @@ from utils import get_initial_message, update_chat
 # Define Streamlit app
 def main():
     st.set_page_config(page_title="PDF QA Chatbot", page_icon="🤖")
-    st.title("PDF Question-Answering Chatbot")
+    st.title("PDF Question-Answering Chatbot 🤖 ")
     st.markdown("<br>", unsafe_allow_html=True)
     
 
@@ -45,7 +45,7 @@ def main():
             if "past" not in st.session_state:
                 st.session_state["past"] = []
 
-            query = st.text_input("Query: ", key="input")
+            query = st.text_input("Type Your Question : ", key="input")
 
             if "messages" not in st.session_state:
                 st.session_state["messages"] = get_initial_message()
